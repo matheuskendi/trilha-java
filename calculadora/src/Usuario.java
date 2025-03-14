@@ -17,7 +17,7 @@ public class Usuario {
         
         int resultados = 0;
 
-        //resultados
+        //resultados com o IF
         //if ( op.equals("+")){
         //    resultados = num1 + num2 ;
         //    System.out.println("O resultado é: " + resultados );
@@ -40,7 +40,7 @@ public class Usuario {
         //    
         //}
 
-
+        //resultados com o Switch
         switch (op) {
             case "+":
                 resultados = num1 + num2;
