@@ -9,18 +9,37 @@ public class Usuario {
         System.out.println("Digite o primerio numero");
         int num1 = scanner.nextInt();
 
-
         System.out.println("Digite o segundo numero");
         int num2 = scanner.nextInt();
 
-
-        System.out.println("Digite a operação numero: * + - / ");
-        int operador = scanner.nextInt();
-
+        System.out.println("Digite o operador desejado: + - * /");
+        String op = scanner.next();
         
+        int resultados = 0;
 
+        //resultados
+        if ( op.equals("+")){
+            resultados = num1 + num2 ;
+            System.out.println("O resultado é: " + resultados );
+
+        }else if( op.equals("-")) {
+            resultados = num1 - num2 ;
+            System.out.println("O resultado é: " + resultados);
+        
+        }else if( op.equals("*")) {
+            resultados = num1 * num2 ;
+            System.out.println("O resultado é: " + resultados);
+
+        }else if( op.equals("/")) {
+            if((num1 > 0)&&(num2 > 0)){
+                resultados = num1 / num2 ;
+                System.out.println("O resultado é: " + resultados);
+            }else{
+                    System.out.println("Erro!! Não pode ser dividido por 0, troque o numero!!");
+            }
+            
+        }
 
     }
 
-    
 }
