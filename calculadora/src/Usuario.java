@@ -18,28 +18,58 @@ public class Usuario {
         int resultados = 0;
 
         //resultados
-        if ( op.equals("+")){
-            resultados = num1 + num2 ;
-            System.out.println("O resultado é: " + resultados );
+        //if ( op.equals("+")){
+        //    resultados = num1 + num2 ;
+        //    System.out.println("O resultado é: " + resultados );
+//
+        //}else if( op.equals("-")) {
+        //    resultados = num1 - num2 ;
+        //    System.out.println("O resultado é: " + resultados);
+        //
+        //}else if( op.equals("*")) {
+        //    resultados = num1 * num2 ;
+        //    System.out.println("O resultado é: " + resultados);
+//
+        //}else if( op.equals("/")) {
+        //    if((num1 > 0)&&(num2 > 0)){
+        //        resultados = num1 / num2 ;
+        //        System.out.println("O resultado é: " + resultados);
+        //    }else{
+        //            System.out.println("Erro!! Não pode ser dividido por 0, troque o numero!!");
+        //    }
+        //    
+        //}
 
-        }else if( op.equals("-")) {
-            resultados = num1 - num2 ;
-            System.out.println("O resultado é: " + resultados);
+
+        switch (op) {
+            case "+":
+                resultados = num1 + num2;
+                System.out.println("O resultado é : " + resultados);                
+                break;
+
+            case "-":
+                resultados = num1 - num2;
+                System.out.println("O resultado é : " + resultados);                
+                break;
+
+            case "*":
+                resultados = num1 * num2;
+                System.out.println("O resultado é : " + resultados);                
+                break;
+
+            case "/":
+                if((num1 > 0)&&(num2 > 0)){
+                    resultados = num1 / num2;
+                    System.out.println("O resultado é : " + resultados);         
+                }else{
+                     System.out.println("Erro!! Não pode ser dividido por 0, troque o numero!!");
+                }
+                break;
         
-        }else if( op.equals("*")) {
-            resultados = num1 * num2 ;
-            System.out.println("O resultado é: " + resultados);
-
-        }else if( op.equals("/")) {
-            if((num1 > 0)&&(num2 > 0)){
-                resultados = num1 / num2 ;
-                System.out.println("O resultado é: " + resultados);
-            }else{
-                    System.out.println("Erro!! Não pode ser dividido por 0, troque o numero!!");
-            }
-            
+            default:
+                System.out.print("Operação inválida! Escolha entre +, -, * ou /.");
+                break;
         }
-
     }
 
 }
