@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExemploPacotes/VisibilidadeRecursos.iml" filepath="$PROJECT_DIR$/ExemploPacotes/VisibilidadeRecursos.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadora/calculadora.iml" filepath="$PROJECT_DIR$/calculadora/calculadora.iml" />
       <module fileurl="file://$PROJECT_DIR$/controle-candidatos/controle-candidatos.iml" filepath="$PROJECT_DIR$/controle-candidatos/controle-candidatos.iml" />
       <module fileurl="file://$PROJECT_DIR$/controle-fluxo/controle-fluxo.iml" filepath="$PROJECT_DIR$/controle-fluxo/controle-fluxo.iml" />
