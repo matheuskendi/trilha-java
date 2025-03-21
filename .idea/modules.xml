@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Messenger/MsnMesseger.iml" filepath="$PROJECT_DIR$/Messenger/MsnMesseger.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExemploPacotes/VisibilidadeRecursos.iml" filepath="$PROJECT_DIR$/ExemploPacotes/VisibilidadeRecursos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/abstracaoclasses/abstracaoclasses.iml" filepath="$PROJECT_DIR$/abstracaoclasses/abstracaoclasses.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadora/calculadora.iml" filepath="$PROJECT_DIR$/calculadora/calculadora.iml" />
       <module fileurl="file://$PROJECT_DIR$/controle-candidatos/controle-candidatos.iml" filepath="$PROJECT_DIR$/controle-candidatos/controle-candidatos.iml" />
       <module fileurl="file://$PROJECT_DIR$/controle-fluxo/controle-fluxo.iml" filepath="$PROJECT_DIR$/controle-fluxo/controle-fluxo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interface/interface.iml" filepath="$PROJECT_DIR$/interface/interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/sistema-smart-tv/sistema-smart-tv.iml" filepath="$PROJECT_DIR$/sistema-smart-tv/sistema-smart-tv.iml" />
       <module fileurl="file://$PROJECT_DIR$/terminal-java/terminal-java.iml" filepath="$PROJECT_DIR$/terminal-java/terminal-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/tipos-variaveis/tipos-variaveis.iml" filepath="$PROJECT_DIR$/tipos-variaveis/tipos-variaveis.iml" />
